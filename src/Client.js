@@ -32,7 +32,7 @@ import {
 } from "./structures/index.js";
 import LegacySessionAuth from "./authStrategies/LegacySessionAuth.js";
 import NoAuth from "./authStrategies/NoAuth.js";
-
+import chalk from "chalk";
 const require = createRequire(import.meta.url);
 
 /**
