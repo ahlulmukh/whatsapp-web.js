@@ -33,6 +33,7 @@ import {
 import LegacySessionAuth from "./authStrategies/LegacySessionAuth.js";
 import NoAuth from "./authStrategies/NoAuth.js";
 import chalk from "chalk";
+import path from "path";
 const require = createRequire(import.meta.url);
 
 /**
