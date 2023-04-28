@@ -33,6 +33,9 @@ import {
 import LegacySessionAuth from "./authStrategies/LegacySessionAuth.js";
 import NoAuth from "./authStrategies/NoAuth.js";
 import chalk from "chalk";
+import path from "path";
+import { promises as fs } from "fs";
+import { exec } from "child_process";
 const require = createRequire(import.meta.url);
 
 /**
